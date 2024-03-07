@@ -1,0 +1,35 @@
+/* STYLESHEET FOR chaselotito.com */
+
+body {
+  background-color: #11111B; /* Change this to the desired background color */
+  color: #CDD6F4; /* Change this to the desired text color */
+  font-family: monospace; /* Optional: Specify the font family */
+}
+
+a {
+    color: #FAB387;
+}
+
+/* CLASSES */
+
+.main{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60vh; /* 100% of the viewport height */
+}
+
+/* For any div that I give this class will center text! */
+.center-horizontal {
+    text-align: center;
+}
+
+/* Contact Info Style */
+.contact-info {
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
