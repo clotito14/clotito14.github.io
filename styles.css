@@ -80,8 +80,8 @@ hr {
     }
 
     .about-section img {
-        width: 120px; /* Slightly reduce the image size on mobile */
-        height: 120px;
+        max-width: 120px; /* Slightly reduce the image size on mobile */
+        height: auto;
     }
 
     .about-text {
