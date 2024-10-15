@@ -79,7 +79,7 @@ hr {
         align-items: center; /* Center the content */
     }
 
-    .profile-pic {
+    .about-section img {
         width: 120px; /* Slightly reduce the image size on mobile */
         height: 120px;
     }
