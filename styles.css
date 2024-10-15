@@ -17,12 +17,19 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 60vh; /* 100% of the viewport height */
+    height: 10vh; /* 100% of the viewport height */
 }
 
 /* For any div that I give this class will center text! */
 .center-horizontal {
     text-align: center;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: #CDD6F4;
+    width: 60%;
 }
 
 /* Contact Info Style */
@@ -32,4 +39,36 @@ a {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+/* Profile Image Container Style */
+.about-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    gap: 20px;
+}
+
+/* Profile Image Style */
+.about-section img {
+    max-width: 10%;
+    max-height: 10%;
+    width: auto;
+    height: auto;
+    border: 5px solid #CDD6F4;
+    box-shadow: 2px 2px #FAB387;
+}
+
+.about-text {
+    max-width: 30%;
+}
+
+.about-text h2 {
+    padding-left: 1%;
+}
+
+.about-text p {
+    padding-left: 1%;
+    word-wrap: break-word;
 }
