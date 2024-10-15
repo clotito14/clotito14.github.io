@@ -71,3 +71,21 @@ hr {
     padding-left: 1%;
     word-wrap: break-word;
 }
+
+/* Media Query for Mobile Devices */
+@media only screen and (max-width: 768px) {
+    .about-section {
+        flex-direction: column; /* Stacks image and text vertically on smaller screens */
+        align-items: center; /* Center the content */
+    }
+
+    .profile-pic {
+        width: 120px; /* Slightly reduce the image size on mobile */
+        height: 120px;
+    }
+
+    .about-text {
+        max-width: 100%; /* Allow the text to take up full width on smaller screens */
+        text-align: center; /* Center the text on mobile */
+    }
+}
