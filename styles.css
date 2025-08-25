@@ -1,18 +1,19 @@
 /* STYLESHEET FOR chaselotito.com */
 
 @font-face {
-    font-family: 'notosans-black'; /* A name you choose for your font */
-    src: url('assets/fonts/NOTOSANS-VARIABLEFONT_WDTH\,WGHT.TTF');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
     font-family: 'ibm-plex'; /* A name you choose for your font */
     src: url('assets/fonts/IBMPLEXMONO-REGULAR.TTF');
     font-weight: normal;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'ibm-plex-bold'; /* A name you choose for your font */
+    src: url('assets/fonts/IBMPLEXMONO-BOLD.TTF');
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 body {
   background-color: #001427; /* Change this to the desired background color */
