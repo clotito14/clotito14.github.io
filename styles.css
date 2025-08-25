@@ -1,13 +1,27 @@
 /* STYLESHEET FOR chaselotito.com */
 
+@font-face {
+    font-family: 'notosans-black'; /* A name you choose for your font */
+    src: url('assets/fonts/NOTOSANS-VARIABLEFONT_WDTH\,WGHT.TTF');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ibm-plex'; /* A name you choose for your font */
+    src: url('assets/fonts/IBMPLEXMONO-REGULAR.TTF');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
-  background-color: #11111B; /* Change this to the desired background color */
-  color: #CDD6F4; /* Change this to the desired text color */
-  font-family: monospace; /* Optional: Specify the font family */
+  background-color: #001427; /* Change this to the desired background color */
+  color: #eef4ed; /* Change this to the desired text color */
+  font-family: 'ibm-plex', sans-serif; /* Optional: Specify the font family */
 }
 
 a {
-    color: #FAB387;
+    color: #ff8c42;
 }
 
 /* CLASSES */
@@ -29,7 +43,7 @@ hr {
     border: none;
     height: 2px;
     background-color: #CDD6F4;
-    width: 60%;
+    width: 98%;
 }
 
 /* Contact Info Style */
@@ -56,7 +70,7 @@ hr {
     width: auto;
     height: auto;
     border: 5px solid #CDD6F4;
-    box-shadow: 2px 2px #FAB387;
+    box-shadow: 2px 2px #778da9;
 }
 
 .about-text {
@@ -69,7 +83,7 @@ hr {
 
 .about-text p {
     padding-left: 1%;
-    word-wrap: break-word;
+    word-wrap: overflow-wrap;
 }
 
 /* Media Query for Mobile Devices */
