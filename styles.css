@@ -21,7 +21,7 @@ body {
   font-family: 'ibm-plex', sans-serif; /* Optional: Specify the font family */
 }
 
-a {
+.contact-info a {
     color: #eb3645;
 }
 
@@ -38,6 +38,10 @@ a {
 /* For any div that I give this class will center text! */
 .center-horizontal {
     text-align: center;
+}
+
+.center-horizontal a {
+    color: #eef4ed;
 }
 
 hr {
@@ -104,3 +108,28 @@ hr {
         text-align: center; /* Center the text on mobile */
     }
 }
+
+.navigation {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-button {
+    padding: 10px 20px;
+    margin: 5px;
+    margin-right: 40px;
+    margin-left: 40px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    background-color: #1b3b6f;
+    color: #eef4e0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .nav-button:hover {
+    background-color: #598392;
+  }
