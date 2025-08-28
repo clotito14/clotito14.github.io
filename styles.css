@@ -107,14 +107,6 @@ hr {
         max-width: 100%; /* Allow the text to take up full width on smaller screens */
         text-align: center; /* Center the text on mobile */
     }
-
-    .story-links {
-        max-width: 100%;
-    }
-
-    .story-text {
-        max-width: 100%;
-    }
 }
 
 .navigation {
@@ -175,4 +167,15 @@ justify-content: center;
 .story-text p {
     padding-left: 1%;
     word-wrap: overflow-wrap;
+}
+
+/* Media Query for Mobile Devices */
+@media only screen and (max-width: 768px) {
+    .story-links {
+        max-width: 100%;
+    }
+
+    .story-text {
+        max-width: 100%;
+    }
 }
