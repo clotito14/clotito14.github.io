@@ -130,6 +130,42 @@ hr {
     text-decoration: none;
   }
 
-  .nav-button:hover {
+.nav-button:hover {
     background-color: #598392;
-  }
+}
+
+.story-links {
+padding-top: 50px;
+padding-bottom: 50px;
+display: flex;
+justify-content: center;
+}
+
+.story-links a {
+color: #CDD6F4;
+display: flex;
+justify-content: center;
+background-color: #598392;
+max-width: 30%;
+}
+
+.story-section {
+padding: 1em;
+word-wrap: overflow-wrap;
+display: flex;
+justify-content: center;
+}
+
+.story-text {
+    max-width: 40%;
+    color: #CDD6F4;
+}
+
+.story-text h2 {
+    padding-left: 1%;
+}
+
+.story-text p {
+    padding-left: 1%;
+    word-wrap: overflow-wrap;
+}
