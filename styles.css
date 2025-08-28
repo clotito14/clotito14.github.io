@@ -139,13 +139,13 @@ padding-top: 50px;
 padding-bottom: 50px;
 display: flex;
 justify-content: center;
+max-width: 30%;
 }
 
 .story-links a {
 color: #CDD6F4;
 display: flex;
 justify-content: center;
-max-width: 30%;
 }
 
 .story-section {
