@@ -139,13 +139,13 @@ padding-top: 50px;
 padding-bottom: 50px;
 display: flex;
 justify-content: center;
-max-width: 30%;
 }
 
 .story-links a {
 color: #CDD6F4;
 display: flex;
 justify-content: center;
+max-width: 30%;
 }
 
 .story-section {
@@ -171,11 +171,11 @@ justify-content: center;
 
 /* Media Query for Mobile Devices */
 @media only screen and (max-width: 768px) {
-    .story-links {
+    .story-links a {
         max-width: 100%;
     }
 
-    .story-text {
+        .story-text {
         max-width: 100%;
     }
 }
