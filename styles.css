@@ -107,6 +107,14 @@ hr {
         max-width: 100%; /* Allow the text to take up full width on smaller screens */
         text-align: center; /* Center the text on mobile */
     }
+
+    .story-links {
+        max-width: 100%;
+    }
+
+    .story-section {
+        max-width: 100%;
+    }
 }
 
 .navigation {
